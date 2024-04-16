@@ -201,14 +201,10 @@ Disable features on the taskbar, unpin shortcuts and tiles from the taskbar and 
 
 ## Activate Windows
 
-Use the commands below to activate Windows using your license key if you do not have one linked to your HWID. Ensure that the activation process was successful by verifying the activation status in computer properties. Open CMD as administrator and enter the commands below.
+Use the commands below to activate Windows using a massgrave script. (HWID and KMS38 recommended)
 
-```bat
-slmgr /ipk <license key>
-```
-
-```bat
-slmgr /ato
+```powershell
+irm https://massgrave.dev/get | iex
 ```
 
 ## Configure a Web Browser
